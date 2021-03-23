@@ -1,0 +1,18 @@
+.vertical-middle{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#input {
+  height: 20px;
+  width: 400px;
+}
+
+#answer {
+  height: 200px;
+  width: 450px;
+}
+
+#shuffle_count {
+  width: 60px;
+}

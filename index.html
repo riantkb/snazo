@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>snazo</title>
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <span class="vertical-middle">Input: </span>
+  <textarea id="input" class="vertical-middle"></textarea>
+  <p id="result"></p>
+  <span>Workspace: </span>
+  <div>
+    <textarea id="answer"></textarea>
+  </div>
+  <span>シャッフルして<input type="number" id="shuffle_count" value="100">件出力</span>
+  <div>
+    <input type="radio" id="shuffle_all" name="shuffle_cond" checked>
+    <label for="shuffle_all">全ての文字を用いる</label>
+  </div>
+  <div>
+    <div>
+      <input type="radio" id="shuffle_part" name="shuffle_cond">
+      <label for="shuffle_part">余った文字のみ用いる</label>
+    </div>
+    <button id="shuffle_button">実行</button>
+  </div>
+  <div id="shuffle_result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
